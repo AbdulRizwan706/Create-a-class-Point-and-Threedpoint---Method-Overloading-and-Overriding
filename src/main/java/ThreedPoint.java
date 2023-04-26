@@ -8,6 +8,6 @@ public class ThreedPoint extends Point{
     //Point p = new Point();
     
     public void display(){
-        System.out.println("[<<" + this.x + ">>, <<" + this.y + ">>, <<" + this.z + ">>]");
+        System.out.println("[" + this.x + ", " + this.y + ", " + this.z + "]");
     }
 }
