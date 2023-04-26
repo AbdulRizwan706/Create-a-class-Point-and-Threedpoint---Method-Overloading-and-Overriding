@@ -5,9 +5,9 @@ public class Point {
     // y: int
     // It should have a display method that prints in following format - “[<<x>>, <<y>>]”
     // x and y should be protected and display should be public
-    public int x;
-    public int y;
+    protected int x;
+    protected int y;
     public void display(){
-        System.out.println("“[<<" + this.x +">>, <<"+ this.y + ">>]”");
+        System.out.println("[<<" + this.x +">>, <<"+ this.y + ">>]");
     }
 }
